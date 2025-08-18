@@ -1,0 +1,23 @@
+@use "variables" as v; 
+
+.carousel-item{
+    height: 600px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .carousel-item img{
+    max-width: 100%;
+    max-height: 100%;
+    }
+    @media (max-width:425px){
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .f-nav{
+        justify-content: center;
+        gap: 20px;
+    }
+}
+}

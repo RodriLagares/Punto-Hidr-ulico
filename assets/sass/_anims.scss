@@ -1,0 +1,28 @@
+@keyframes scale{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.5;
+    }
+}
+%scaleUp{
+    animation: scale 1s forwards ease-in-out;
+}
+@keyframes whatsaap{
+    0%{
+    transform: translate(0);
+    }
+    20%{
+    transform: translate(20px);
+    }
+    40%{
+    transform: translate(-20px);
+    }
+    60%{
+    transform: translate(0);
+    }
+}
+%vibrar{
+    animation:whatsaap 2s infinite ease-in-out;
+}

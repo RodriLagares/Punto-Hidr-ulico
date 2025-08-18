@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+.sobre-nosotros{
+    text-align: center;
+    gap: 30px;
+    padding: 50px;
+}
+@media (max-width:425px){
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .f-nav{
+        justify-content: center;
+        gap: 20px;
+    }
+}

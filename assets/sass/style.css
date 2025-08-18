@@ -1,0 +1,10 @@
+@use "variables";
+@use "sobre_nosotros";
+@use "productos";
+@use "home";
+@use "header";
+@use "galeria";
+@use "footer";
+@use "contacto";
+
+
