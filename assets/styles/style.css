@@ -353,15 +353,25 @@ width: 100%;
     height: auto;
     }
 
-    .logo-whatsapp {
+@keyframes whatsapp {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(20px); }
+    40%  { transform: translateX(-20px); }
+    60%  { transform: translateX(0); }
+}
+
+.logo-whatsapp {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    }
-    img{
+    animation: whatsapp 2s infinite ease-in-out;
+}
+
+.logo-whatsapp img {
     width: 50px;
     height: auto;
-    }    
+}
+
 
 
 
